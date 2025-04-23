@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Esencia Web</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <img src="/logo.png" class="logo" alt="Logo Tu Esencia Web">
+
+    <div class="container">
+        <button class="btn" onclick="openModal('modal1')">Lo que hago - Mis objetivos</button>
+        <button class="btn" onclick="openModal('modal2')">Propuestas y Servicios</button>
+        <button class="btn" onclick="openModal('modal3')">Beneficios</button>
+        <button class="btn" onclick="openModal('modal4')">Preguntas frecuentes</button>
+        <button class="btn" onclick="openModal('modal5')">Contacto y reuniones</button>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Lo que hago</h2>
+            <p>Soy desarrolladora web, diseño sitios web a medida, modernos, responsivos y optimizados para mostrar tu
+                presencia digital
+                profesionalmente.
+            <p>Busco ayudar a emprendedores a:</p>
+            <ul>
+                <li>Alcanzar su presencia web</li>
+                <li>Ampliar su visibilidad</li>
+                <li>Aumentar sus ventas</li>
+            </ul>
+            </p>
+            <p>Creando un sitio web ajustado a tus necesidades, funcional y que muestre al mundo tu esencia de
+                marca,<b>tu esencia web</b></p>
+
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h2>Propuestas y Servicios</h2>
+            <p>Lo primero que debemos preguntarnos es: </p>
+            <ul>
+                <li>¿Qué necesito?</li>
+                <li>¿Cómo funciona mi negocio?</li>
+                <li>¿Cómo podría hacer mi trabajo diario más fácil?</li>
+                <li>¿Qué quiero transmitir a mis clientes?</li>
+            </ul>
+            <p>En base a las respuestas de estás preguntas haremos, una web informativa, una tienda online, un gestor de
+                turnos...además de mantenimiento, SEO y mucho más!</p>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h2>Beneficios</h2>
+            <p>¿Por qué elegirnos?</p>
+            <ul>
+                <li>Sitio web único</li>
+                <li>Desarrollo integral desde cero</li>
+                <li>Personalizado al 100%</li>
+                <li>Funcionalidades que se ajustan a tus necesidades</li>
+                <li>Entiendo que estás impulsándote y te doy una mano</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal" id="modal4">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4')">&times;</span>
+            <h2>Preguntas frecuentes</h2>
+            <section class="faq">
+                <details>
+                    <summary>¿Cómo es el proceso para obtener mi web?</summary>
+                    <ol>
+                        <li>Podés escribirme para sacarte dudas o simplemente agendar tu primera reunión con nosotros!
+                        </li>
+                        <li>En la primera reunión nos conocemos y acordamos cómo será tu web!</li>
+                        <li>Programamos una segunda reunión donde podrás ver cómo se verá terminada tu web y decidirás si quieres continuar con su desarrollo o lo dejas para más adelante!</li>
+
+                    </ol>
+                </details>
+
+                <details>
+                    <summary>¿Cómo sé qué necesito realmente?</summary>
+                    <p>
+                        Para ello hacemos la primera reunión, reflexionamos acerca de tu negocio y cómo trabajas, y
+                        te sugiero qué herramientas digitales puedes sumar a tu web para facilitar tu trabajo diario e
+                        invertir tu tiempo en otras actividades sin tener que preocuparte, porque tu negocio funcionará
+                        sin ti!
+                    </p>
+                </details>
+
+                <details>
+                    <summary>¿Puedo elegir cómo se verá mi web?</summary>
+                    <p>
+                        Por supuesto que si! La parte más divertida, identificar tus estilo, elegir tipografías, paleta
+                        de colores, logo, fotos de tu negocio y muchas cosas más!
+                        Siéntete totalmente libre al compartir tus ideas! Para mí son muy valiosas!
+                    </p>
+                </details>
+
+                <details>
+                    <summary>¿Cómo nos contactamos?</summary>
+                    <p>
+                        Como lo prefieras! Puedes escribí por WhatsApp o mandá un mesajito por Instagram.
+                        Encantada te contestaré a la brevedad y evacuaremos todas tus dudas. Consultá sin
+                        compromiso!
+                    </p>
+                </details>
+
+                <details>
+                    <summary>¿Cuánto dinero invertiré en hacer mi web?</summary>
+                    <p>
+                        Eso dependerá de qué tipo de sitio web elijas y cuántas herramientas digitales le sumes, pero
+                        tranqui siempre me pongo en tu lugar!
+                    </p>
+                </details>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal" id="modal5">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal5')">&times;</span>
+            <h2>Contacto y reuniones</h2>
+            <p>No dudes en escribirnos!</p>
+            <a href="https://www.instagram.com/   TU-USUARIO   " target="_blank" rel="noopener noreferrer"
+                class="enlace">
+                ¡Consultá por Instagram aquí!
+            </a>
+            <a href="https://wa.me/549XXXXXXXXXX" target="_blank" rel="noopener noreferrer" class="enlace">
+                ¡Consultá por WhatsApp aquí!
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
