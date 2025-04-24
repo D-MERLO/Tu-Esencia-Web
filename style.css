@@ -15,7 +15,7 @@ body {
     align-items: center;
     align-items: center;
     padding: 2rem;
-    font-family:'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h2,
@@ -45,16 +45,20 @@ summary {
 .btn:hover {
     background-color: #444;
 }
-.enlace{
+
+.enlace {
     color: #444;
-    text-decoration:none;
+    text-decoration: none;
     display: block;
+    padding: 5px;
     font-weight: bold;
 }
-.enlace:hover{
+
+.enlace:hover {
     text-decoration: underline;
-  color: black;
+    color: black;
 }
+
 /* Modal */
 .modal {
     display: none;
